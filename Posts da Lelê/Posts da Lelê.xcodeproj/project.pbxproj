@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A815ED4225E9C0EA0006F7B3 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A815ED4125E9C0EA0006F7B3 /* PostData.swift */; };
+		A8F94AA925E96BA00057CD73 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F94AA825E96BA00057CD73 /* PostCell.swift */; };
+		A8F94AB025E972170057CD73 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F94AAF25E972170057CD73 /* Post.swift */; };
+		AEBC309A25E948CE000647B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC309925E948CE000647B4 /* AppDelegate.swift */; };
+		AEBC309C25E948CE000647B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC309B25E948CE000647B4 /* SceneDelegate.swift */; };
+		AEBC30A425E948CE000647B4 /* Posts_da_Lele_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEBC30A225E948CE000647B4 /* Posts_da_Lele_.xcdatamodeld */; };
+		AEBC30A625E948D1000647B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30A525E948D1000647B4 /* Assets.xcassets */; };
+		AEBC30A925E948D1000647B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30A725E948D1000647B4 /* LaunchScreen.storyboard */; };
+		AEBC30B425E94B9D000647B4 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC30B325E94B9D000647B4 /* Posts.swift */; };
+		AEBC30BC25E953E3000647B4 /* steveJobs.png in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30BB25E953E3000647B4 /* steveJobs.png */; };
+		AEBC30C025E95419000647B4 /* techTVShows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30BF25E95419000647B4 /* techTVShows.jpg */; };
+		AEBC30C325E95441000647B4 /* juniorDev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30C225E95441000647B4 /* juniorDev.jpg */; };
+		AEBC30C625E95470000647B4 /* mvc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30C525E95470000647B4 /* mvc.jpg */; };
+		AEBC30CA25E95481000647B4 /* helloPrint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30C925E95481000647B4 /* helloPrint.jpg */; };
+		AEBC30D125E954C1000647B4 /* unwrappeVariables.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30D025E954C1000647B4 /* unwrappeVariables.jpg */; };
+		AEBC30D425E954D6000647B4 /* coreData.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30D325E954D6000647B4 /* coreData.jpg */; };
+		AEBC30D825E954EE000647B4 /* github.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30D725E954EE000647B4 /* github.jpg */; };
+		AEBC30DC25E9582E000647B4 /* readMe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30DB25E9582E000647B4 /* readMe.jpg */; };
+		AEBC30DF25E95D0A000647B4 /* podcasts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30DE25E95D0A000647B4 /* podcasts.jpg */; };
+		AEBC30E225E95D84000647B4 /* arc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEBC30E125E95D84000647B4 /* arc.jpg */; };
+		AEBC30E925E95DE9000647B4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC30E825E95DE9000647B4 /* UIView+Extension.swift */; };
+		AEBC30EC25E95FC8000647B4 /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC30EB25E95FC8000647B4 /* PostListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A815ED4125E9C0EA0006F7B3 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		A8F94AA825E96BA00057CD73 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		A8F94AAF25E972170057CD73 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AEBC309625E948CE000647B4 /* Posts da Lelê.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Posts da Lelê.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBC309925E948CE000647B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEBC309B25E948CE000647B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AEBC30A325E948CE000647B4 /* Posts_da_Lele_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Posts_da_Lele_.xcdatamodel; sourceTree = "<group>"; };
+		AEBC30A525E948D1000647B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEBC30A825E948D1000647B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEBC30AA25E948D1000647B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBC30B325E94B9D000647B4 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		AEBC30BB25E953E3000647B4 /* steveJobs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = steveJobs.png; path = "../../../../Posts/Steve-jobs/steveJobs.png"; sourceTree = "<group>"; };
+		AEBC30BF25E95419000647B4 /* techTVShows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = techTVShows.jpg; path = "../../../../Posts/series-tecnologia/techTVShows.jpg"; sourceTree = "<group>"; };
+		AEBC30C225E95441000647B4 /* juniorDev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = juniorDev.jpg; path = "../../../../Posts/publi-dev-jr/juniorDev.jpg"; sourceTree = "<group>"; };
+		AEBC30C525E95470000647B4 /* mvc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mvc.jpg; path = ../../../../Posts/MVC/mvc.jpg; sourceTree = "<group>"; };
+		AEBC30C925E95481000647B4 /* helloPrint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = helloPrint.jpg; path = "../../../../Posts/hello-world/helloPrint.jpg"; sourceTree = "<group>"; };
+		AEBC30D025E954C1000647B4 /* unwrappeVariables.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unwrappeVariables.jpg; path = "../../../../Posts/desembrulhando-opcional/unwrappeVariables.jpg"; sourceTree = "<group>"; };
+		AEBC30D325E954D6000647B4 /* coreData.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coreData.jpg; path = "../../../../Posts/Core Data/coreData.jpg"; sourceTree = "<group>"; };
+		AEBC30D725E954EE000647B4 /* github.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = github.jpg; path = ../../../../Posts/github/github.jpg; sourceTree = "<group>"; };
+		AEBC30DA25E95514000647B4 /* viewControllerLifeCycle.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = viewControllerLifeCycle.psd; path = "../../../../Posts/ciclo-de-vida-view/viewControllerLifeCycle.psd"; sourceTree = "<group>"; };
+		AEBC30DB25E9582E000647B4 /* readMe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = readMe.jpg; sourceTree = "<group>"; };
+		AEBC30DE25E95D0A000647B4 /* podcasts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = podcasts.jpg; sourceTree = "<group>"; };
+		AEBC30E125E95D84000647B4 /* arc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arc.jpg; sourceTree = "<group>"; };
+		AEBC30E825E95DE9000647B4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		AEBC30EB25E95FC8000647B4 /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEBC309325E948CE000647B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8F76DD725E994700041693C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AEBC30B325E94B9D000647B4 /* Posts.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A8F76DD825E994B60041693C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A815ED4125E9C0EA0006F7B3 /* PostData.swift */,
+				A8F94AAF25E972170057CD73 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8F76DDB25E995A60041693C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEBC30EB25E95FC8000647B4 /* PostListViewController.swift */,
+				A8F76DD725E994700041693C /* Constants */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEBC308D25E948CE000647B4 = {
+			isa = PBXGroup;
+			children = (
+				AEBC309825E948CE000647B4 /* Posts da Lelê */,
+				AEBC309725E948CE000647B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEBC309725E948CE000647B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEBC309625E948CE000647B4 /* Posts da Lelê.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEBC309825E948CE000647B4 /* Posts da Lelê */ = {
+			isa = PBXGroup;
+			children = (
+				A8F94AA825E96BA00057CD73 /* PostCell.swift */,
+				A8F76DDB25E995A60041693C /* Controller */,
+				A8F76DD825E994B60041693C /* Model */,
+				AEBC30E725E95DC2000647B4 /* Extensions */,
+				AEBC30B625E953B7000647B4 /* Images */,
+				AEBC309925E948CE000647B4 /* AppDelegate.swift */,
+				AEBC309B25E948CE000647B4 /* SceneDelegate.swift */,
+				AEBC30A525E948D1000647B4 /* Assets.xcassets */,
+				AEBC30A725E948D1000647B4 /* LaunchScreen.storyboard */,
+				AEBC30AA25E948D1000647B4 /* Info.plist */,
+				AEBC30A225E948CE000647B4 /* Posts_da_Lele_.xcdatamodeld */,
+			);
+			path = "Posts da Lelê";
+			sourceTree = "<group>";
+		};
+		AEBC30B625E953B7000647B4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AEBC30BB25E953E3000647B4 /* steveJobs.png */,
+				AEBC30DB25E9582E000647B4 /* readMe.jpg */,
+				AEBC30BF25E95419000647B4 /* techTVShows.jpg */,
+				AEBC30DA25E95514000647B4 /* viewControllerLifeCycle.psd */,
+				AEBC30D325E954D6000647B4 /* coreData.jpg */,
+				AEBC30D725E954EE000647B4 /* github.jpg */,
+				AEBC30E125E95D84000647B4 /* arc.jpg */,
+				AEBC30D025E954C1000647B4 /* unwrappeVariables.jpg */,
+				AEBC30C925E95481000647B4 /* helloPrint.jpg */,
+				AEBC30C525E95470000647B4 /* mvc.jpg */,
+				AEBC30DE25E95D0A000647B4 /* podcasts.jpg */,
+				AEBC30C225E95441000647B4 /* juniorDev.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AEBC30E725E95DC2000647B4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AEBC30E825E95DE9000647B4 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEBC309525E948CE000647B4 /* Posts da Lelê */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBC30AD25E948D1000647B4 /* Build configuration list for PBXNativeTarget "Posts da Lelê" */;
+			buildPhases = (
+				AEBC309225E948CE000647B4 /* Sources */,
+				AEBC309325E948CE000647B4 /* Frameworks */,
+				AEBC309425E948CE000647B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Posts da Lelê";
+			productName = "Posts da Lelê";
+			productReference = AEBC309625E948CE000647B4 /* Posts da Lelê.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEBC308E25E948CE000647B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					AEBC309525E948CE000647B4 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = AEBC309125E948CE000647B4 /* Build configuration list for PBXProject "Posts da Lelê" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEBC308D25E948CE000647B4;
+			productRefGroup = AEBC309725E948CE000647B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEBC309525E948CE000647B4 /* Posts da Lelê */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEBC309425E948CE000647B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBC30D125E954C1000647B4 /* unwrappeVariables.jpg in Resources */,
+				AEBC30C625E95470000647B4 /* mvc.jpg in Resources */,
+				AEBC30C025E95419000647B4 /* techTVShows.jpg in Resources */,
+				AEBC30DC25E9582E000647B4 /* readMe.jpg in Resources */,
+				AEBC30C325E95441000647B4 /* juniorDev.jpg in Resources */,
+				AEBC30A925E948D1000647B4 /* LaunchScreen.storyboard in Resources */,
+				AEBC30E225E95D84000647B4 /* arc.jpg in Resources */,
+				AEBC30D425E954D6000647B4 /* coreData.jpg in Resources */,
+				AEBC30D825E954EE000647B4 /* github.jpg in Resources */,
+				AEBC30DF25E95D0A000647B4 /* podcasts.jpg in Resources */,
+				AEBC30A625E948D1000647B4 /* Assets.xcassets in Resources */,
+				AEBC30CA25E95481000647B4 /* helloPrint.jpg in Resources */,
+				AEBC30BC25E953E3000647B4 /* steveJobs.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEBC309225E948CE000647B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBC30E925E95DE9000647B4 /* UIView+Extension.swift in Sources */,
+				AEBC30EC25E95FC8000647B4 /* PostListViewController.swift in Sources */,
+				AEBC30A425E948CE000647B4 /* Posts_da_Lele_.xcdatamodeld in Sources */,
+				AEBC30B425E94B9D000647B4 /* Posts.swift in Sources */,
+				A815ED4225E9C0EA0006F7B3 /* PostData.swift in Sources */,
+				AEBC309A25E948CE000647B4 /* AppDelegate.swift in Sources */,
+				A8F94AB025E972170057CD73 /* Post.swift in Sources */,
+				AEBC309C25E948CE000647B4 /* SceneDelegate.swift in Sources */,
+				A8F94AA925E96BA00057CD73 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEBC30A725E948D1000647B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEBC30A825E948D1000647B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEBC30AB25E948D1000647B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEBC30AC25E948D1000647B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEBC30AE25E948D1000647B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CD8V98R6W;
+				INFOPLIST_FILE = "Posts da Lelê/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leticiasantos.Posts-da-Lele-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEBC30AF25E948D1000647B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CD8V98R6W;
+				INFOPLIST_FILE = "Posts da Lelê/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "leticiasantos.Posts-da-Lele-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEBC309125E948CE000647B4 /* Build configuration list for PBXProject "Posts da Lelê" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBC30AB25E948D1000647B4 /* Debug */,
+				AEBC30AC25E948D1000647B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBC30AD25E948D1000647B4 /* Build configuration list for PBXNativeTarget "Posts da Lelê" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBC30AE25E948D1000647B4 /* Debug */,
+				AEBC30AF25E948D1000647B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AEBC30A225E948CE000647B4 /* Posts_da_Lele_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AEBC30A325E948CE000647B4 /* Posts_da_Lele_.xcdatamodel */,
+			);
+			currentVersion = AEBC30A325E948CE000647B4 /* Posts_da_Lele_.xcdatamodel */;
+			path = Posts_da_Lele_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AEBC308E25E948CE000647B4 /* Project object */;
+}
